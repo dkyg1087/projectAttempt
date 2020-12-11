@@ -1,0 +1,7 @@
+1. Event Create --> currentEvent table (DONE)
+3. Event search --> currentEvent table,reject table
+4. Event request -->currentEvent table,request table
+5. Event Edit --> curruentEvent table
+6. Event Finish
+2. Event delete --> currentEvent table
+7. Event drop
