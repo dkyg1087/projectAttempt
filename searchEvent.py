@@ -1,7 +1,6 @@
 from flask import Flask,BluePrint,jsonify,request
 from flask_pymongo import PyMongo
 from . import get_db
-from flask import request,jsonify
 mongo = get_db()
 searchEvent=BluePrint("searchEvent",__name__)
 
@@ -12,7 +11,7 @@ def query():
     for i in range(2,7):
         val=request.args.get(paramList[i])
         if val is not None:
-            db_filter[item]=val
+            db_filter[paramList[i]]=val
     result=mongo.db.currentEvent.find(db_filter)
     rejectList=mongo.db.rejectTable.find_one({'user_id':request.args.get(paramList[0])})
 

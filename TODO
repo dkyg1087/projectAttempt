@@ -1,7 +1,16 @@
 1. Event Create --> currentEvent table (DONE)
+
+
 3. Event search --> currentEvent table,reject table
 4. Event request -->currentEvent table,request table
-5. Event Edit --> curruentEvent table
-6. Event Finish
-2. Event delete --> currentEvent table
-7. Event drop
+    Accept request
+5. Event Edit --> curruentEvent table (DONE)
+
+
+6. Event Finish (DONE)
+2. Event delete (DONE)
+7. Event drop (DONE)
+
+
+reject event
+accept event
